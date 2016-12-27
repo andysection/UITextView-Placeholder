@@ -27,8 +27,8 @@ a kind of class base on UITextView With custom PlaceHolder
 
 # 使用方法
 直接将UITextView+Extension.h和UITextView+Extension.m拖入项目中，在需要使用TextView的控制器内导入，调用下面方法可以
-`
+```
 - (void)setPlaceholderWithText:(NSString *)text Color:(UIColor *)color;
-`
+```
 谢谢你的观看
 Thanks for your reading~
