@@ -31,4 +31,5 @@ a kind of class base on UITextView With custom PlaceHolder
 - (void)setPlaceholderWithText:(NSString *)text Color:(UIColor *)color;
 ```
 谢谢你的观看
+
 Thanks for your reading~
