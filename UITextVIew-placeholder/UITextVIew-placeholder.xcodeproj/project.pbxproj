@@ -13,6 +13,7 @@
 		841E66CC1E12229B00DB856E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841E66CA1E12229B00DB856E /* Main.storyboard */; };
 		841E66CE1E12229B00DB856E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841E66CD1E12229B00DB856E /* Assets.xcassets */; };
 		841E66D11E12229B00DB856E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841E66CF1E12229B00DB856E /* LaunchScreen.storyboard */; };
+		845921AD1E12495B000AC61F /* UITextView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 845921AC1E12495B000AC61F /* UITextView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		841E66CD1E12229B00DB856E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841E66D01E12229B00DB856E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841E66D21E12229B00DB856E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845921AB1E12495B000AC61F /* UITextView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extension.h"; sourceTree = "<group>"; };
+		845921AC1E12495B000AC61F /* UITextView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				841E66CF1E12229B00DB856E /* LaunchScreen.storyboard */,
 				841E66D21E12229B00DB856E /* Info.plist */,
 				841E66C11E12229B00DB856E /* Supporting Files */,
+				845921AB1E12495B000AC61F /* UITextView+Extension.h */,
+				845921AC1E12495B000AC61F /* UITextView+Extension.m */,
 			);
 			path = "UITextVIew-placeholder";
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 				TargetAttributes = {
 					841E66BD1E12229B00DB856E = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XYGY6W2D2B;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -153,6 +159,7 @@
 				841E66C91E12229B00DB856E /* ViewController.m in Sources */,
 				841E66C61E12229B00DB856E /* AppDelegate.m in Sources */,
 				841E66C31E12229B00DB856E /* main.m in Sources */,
+				845921AD1E12495B000AC61F /* UITextView+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XYGY6W2D2B;
 				INFOPLIST_FILE = "UITextVIew-placeholder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lily.UITextVIew-placeholder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,7 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XYGY6W2D2B;
 				INFOPLIST_FILE = "UITextVIew-placeholder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lily.UITextVIew-placeholder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +318,7 @@
 				841E66D71E12229B00DB856E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
