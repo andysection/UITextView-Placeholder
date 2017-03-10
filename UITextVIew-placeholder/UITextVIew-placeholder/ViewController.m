@@ -42,10 +42,10 @@
     textView.frame = CGRectMake(5, 100, [UIScreen mainScreen].bounds.size.width -10, 200);
     [textView setBackgroundColor:[UIColor greenColor]];
     [self.view addSubview:textView];
-    NSLog(@"%@",textView.font);
+    //模仿cell复用
     [textView setPlaceholderWithText:@"占位字符串" Color:[UIColor lightGrayColor]];
-    NSLog(@"%@",textView.font);
     [textView setPlaceholderWithText:@"占位字符串" Color:[UIColor lightGrayColor]];
+
     NSLog(@"%@",textView.font);
     
     textView.font = [UIFont systemFontOfSize:18];
